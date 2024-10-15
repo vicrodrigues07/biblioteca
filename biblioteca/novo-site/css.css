@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    background-color: #00000036;
+    margin: 20px;
+}
+
+.book {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #00000036;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 200px;
+    max-height: 500px;
+}
+
+.book:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.book img {
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.book .title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.book .author {
+    font-size: 16px;
+    color: #ccc;
+    
+}
+
+.desc {
+    color: #ccc;
+    padding: 7.5px;
+    font-size: 14px;
+    max-width: 500px;
+    max-height: 300px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+button {
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #61055c;
+}
+
+button:hover {
+    background-color: #3d1f3c;
+}
+
+.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-theme .book {
+    background-color: #444;
+    border-color: #555;
+}
+
+.dark-theme .desc {
+    color: #ccc;
+    background-color: #333;
+}
+
+.dark-theme .book:hover {
+    box-shadow: 0 0 10px rgba(255,255,255,0.3);
+}

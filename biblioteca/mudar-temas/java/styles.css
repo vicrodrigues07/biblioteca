@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.3s eas,color 0.3s ease;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    right: 0;  
+}
+
+button { 
+    padding: 10px 20px;
+    font-size: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #61055c;
+    color: white;
+    border-radius: 5px;
+    transition: background-color color 0.3s ease;
+}
+
+
+.botao-comprar{
+margin-bottom: 6px;
+}
+
+.livro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 10px;
+    border-radius: 15px;
+}
+
+.livro img {
+    width: 20%;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.descrição_atributos{
+    text-align: center;
+    align-items: left;
+}
+
+.livro2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 10px;
+    border-radius: 15px;
+}
+
+.livro2 img {
+    width: 20%;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.descrição_atributos{
+    text-align: center;
+    align-items: left;
+}
+
+
+.livro3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 10px;
+    border-radius: 15px;
+}
+
+.livro3 img {
+    width: 20%;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.descrição_atributos{
+    text-align: center;
+    align-items: left;
+}
+
+
+
+.p{
+    text-align: left;
+}
+
+button:hover {
+    background-color: #61055c;
+}
+
+/*Tema claro*/
+.ligth-theme {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+/*Tema escuro*/
+.dark-theme {
+    background-color: #000000;
+    color: #fff;
+}
+
+.botao-comprar {
+    background-color: #623cde;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .botao-comprar:hover {
+    background-color: #7842ff;
+  }
